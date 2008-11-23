@@ -14,7 +14,7 @@ define('_MI_MATCH_BNAME2','Team Menü');
 
 // Sub menus in main menu block
 define('_MI_MATCH_SMNAME2','Matches');
-define('_MI_MATCH_SMNAME3','Roster');
+define('_MI_MATCH_SMNAME3','Spielerverzeichniss');
 define('_MI_MATCH_SMNAME4','Taktiken');
 
 // Names of admin menu items
@@ -49,5 +49,5 @@ define('_MI_TEAM_SECTIONSDESC', 'Wählt die Bereiche aus die im Team Modul angez
 define('_MI_MATCH_ADMENU11','Layout verwalten');
 
 // Added 24.11.2003 - Jace
-define('_MI_MATCH_ADMENU12','Ladders verwalten');
+define('_MI_MATCH_ADMENU12','Rangliste verwalten');
 ?>

@@ -6,6 +6,8 @@ include_once XOOPS_ROOT_PATH . '/modules/' . $xoopsModule->dirname() . '/functio
 $teamid = isset($_GET['teamid']) ? intval($_GET['teamid']) : getDefaultTeam();
 $team_handler =& xoops_getmodulehandler('team');
 $team =& $team_handler->get($teamid);
+$xoopsOption['template_main'] = 'team_roster.html';
+include XOOPS_ROOT_PATH.'/header.php';
 if ($xoopsUser) {
     $uid = $xoopsUser->getVar("uid");
     if ($team->isTeamAdmin($uid)) {
@@ -15,8 +17,6 @@ if ($xoopsUser) {
         $xoopsTpl->assign('teammember', 'Yes');
     }
 }
-$xoopsOption['template_main'] = 'team_roster.html';
-include XOOPS_ROOT_PATH . '/header.php';
 $players = $team->getAllMembers();
 $count = 0;
 $ranks = getAllRanks();

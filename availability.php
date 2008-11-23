@@ -145,7 +145,7 @@ if ($xoopsUser) {
         }
         break;
 
-        case "change":
+        case _AM_TEAMCHANGE."" :
         if (change($avid, $availability, $matchid)) {
             if ($availability=='Sub') {
                 comment($avid, $comment);
@@ -337,7 +337,7 @@ if ($xoopsUser) {
                 $action = "set";
                 if (isset($pending) && ($pending==1)) {
                     if (isset($myav)) {
-                        $action = "change";
+                        $action = _AM_TEAMCHANGE."";
                         if ($myav=="Yes") {
                             $xoopsTpl->assign('avcheck', "selected");
                             $xoopsTpl->assign('navcheck', "");

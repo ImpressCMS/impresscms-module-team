@@ -113,6 +113,7 @@ define("_AM_TEAMLATEPOSITIVE","Late Positive");
 define("_AM_TEAMLATENEGATIVE","Late Negative");
 define("_AM_TEAMAVAILHASLOCKADMIN","Availability has been locked by the Administrator");
 define("_AM_TEAMHELLO","Hello");
+define("_AM_TEAMCHANGE","Change");
 define("_AM_TEAMYOUSETAVAIL","you are set as Available");
 define("_AM_TEAMYOUSETNOTAVAIL","you are set as Not Available");
 define("_AM_TEAMYOUSETSUB","you are set as Sub");

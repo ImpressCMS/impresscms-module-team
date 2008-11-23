@@ -22,7 +22,7 @@ define("_AM_ADDBUTTON", "Hinzufügen -->");
 define("_AM_DELBUTTON", "<-- Löschen ");
 
 //addedbyfrankblack
-define("_AM_TEAMMATCHLISTFORALLTEAMS","Match List for All Teams");
+define("_AM_TEAMMATCHLISTFORALLTEAMS","Match List für alle Teams");
 define("_AM_TEAMADDMATCH","Match hinzufügen");
 define("_AM_TEAMMATCHTYPE","Match Typ:");
 define("_AM_TEAMRESULT","Ergebnis");
@@ -186,20 +186,20 @@ define("_AM_CUSTOMSERVER","Eigener Server");
 define("_AM_MAYCHOOSECUSTOMSERVER","oder wählen Sie \"Custom Server\" und tragen IP/Port/Beschreibung hier ein:");
 
 // Added 24.11.2003 - Jace
-define("_AM_TEAMLADDERNAME","Name der Ladder");
-define("_AM_TEAMLADDERVISIBLE","Laddermatches sichtbar in der Übersicht??");
+define("_AM_TEAMLADDERNAME","Name der Rangliste");
+define("_AM_TEAMLADDERVISIBLE","Ranglistenmatches sichtbar in der Übersicht??");
 define("_AM_YES","Ja");
 define("_AM_NO","Nein");
-define("_AM_LADDERMNGR","Ladders verwalten");
-define("_AM_TEAMLADDERDELETED","Ladder gelöscht");
-define("_AM_RUSUREDELLADDER", "Sind Sie sicher, dass Sie die ausgewählte Ladder löschen wollen?");
-define("_AM_TEAMLADDERADDED","Ladder hinzugefügt");
-define("_AM_TEAMLADDERMODIFIED","Ladder bearbeitet");
-define("_AM_TEAMLADDERSELECTION", "Team Ladders");
-define("_AM_TEAMLADDERSADDED", "Team Ladder(s) hinzugefügt");
-define("_AM_TEAMLADDERSNOTADDED", "Team Ladder(s) NICHT hinzugefügt");
-define("_AM_TEAMLADDERSREMOVED", "Team Ladder(s) gelöscht");
-define("_AM_TEAMLADDERSNOTREMOVED", "Team Ladder(s) NICHT gelöscht");
+define("_AM_LADDERMNGR","Rangliste verwalten");
+define("_AM_TEAMLADDERDELETED","Rangliste gelöscht");
+define("_AM_RUSUREDELLADDER", "Sind Sie sicher, dass Sie die ausgewählte Rangliste löschen wollen?");
+define("_AM_TEAMLADDERADDED","Rangliste hinzugefügt");
+define("_AM_TEAMLADDERMODIFIED","Rangliste bearbeitet");
+define("_AM_TEAMLADDERSELECTION", "Teamrangliste");
+define("_AM_TEAMLADDERSADDED", "Teamrangliste(n) hinzugefügt");
+define("_AM_TEAMLADDERSNOTADDED", "Teamrangliste(n) NICHT hinzugefügt");
+define("_AM_TEAMLADDERSREMOVED", "Teamrangliste(n) gelöscht");
+define("_AM_TEAMLADDERSNOTREMOVED", "Teamrangliste(n) NICHT gelöscht");
 define("_AM_SCREENSHOTS", "Screenshots:");
 define("_AM_SCREENSHOTNAME", "Screenshot");
 define("_AM_ADDSCREENSHOTS", "Zum Bearbeiten oder hochladen hier klicken");

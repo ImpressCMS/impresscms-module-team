@@ -1,7 +1,3 @@
----v3.02 ---
-> Bugfix header.php on index.php (McDonald)
-
-
 --- v3.01 ---
 > Bugfix in screenshot deletion (Mithrandir/Bilco105)
 > Removed screenshot upload from match creation (Mithrandir)

@@ -9,6 +9,6 @@ define("_BL_TEAMMATCHDETAILS", "Match Details");
 //added 03102003
 define("_BL_TEAMMENU","Team Menü");
 define("_BL_TEAMMATCHES","Matches");
-define("_BL_TEAMROSTER","Roster");
+define("_BL_TEAMROSTER","Spielerverzeichniss");
 define("_BL_TEAMTACTICS","Taktiken");
 ?>

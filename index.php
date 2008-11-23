@@ -349,7 +349,6 @@ switch ($op) {
     $start = isset($_GET['start']) ? intval($_GET['start']) : 0;
     include_once XOOPS_ROOT_PATH.'/class/module.textsanitizer.php';
     $xoopsOption['template_main'] = 'team_matchlist.html';
-	include XOOPS_ROOT_PATH . '/header.php';
     $layout = getLayout();
     $curteam =& $team_handler->get($teamid);
     $curteam->select();
